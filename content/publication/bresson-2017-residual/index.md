@@ -39,9 +39,9 @@ url_code: https://github.com/xbresson/spatial_graph_convnets
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'http://helper.ipam.ucla.edu/publications/dlt2018/dlt2018_14506.pdf'
 url_source: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=v3jZRkvIOIM'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

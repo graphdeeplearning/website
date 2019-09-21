@@ -31,12 +31,12 @@ tags:
 
 featured: false
 
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: Blog
+  url: https://suyashlakhotia.com/blog/2018/01/14/movie-reviews-classifier.html
 
 url_pdf: https://ieeexplore.ieee.org/abstract/document/8590017
-url_code: ''
+url_code: 'https://github.com/SuyashLakhotia/TextCategorization'
 url_dataset: ''
 url_poster: ''
 url_project: ''

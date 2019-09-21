@@ -40,9 +40,9 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'http://helper.ipam.ucla.edu/publications/glws4/glws4_16076.pdf'
 url_source: ''
-url_video: ''
+url_video: 'http://www.ipam.ucla.edu/abstract/?tid=16076&pcode=GLWS4'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

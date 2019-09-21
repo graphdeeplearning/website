@@ -5,7 +5,7 @@ title: "Quantum Chemistry"
 
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-authors: [xavier.bresson, "Thomas Laurent"]
+authors: [victor.getty, xavier.bresson, "Thomas Laurent"]
 
 tags: [Deep Learning, Graph Neural Networks, Applications, Chemistry]
 
@@ -20,8 +20,8 @@ external_link: ""
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: "© raimund14/Fotolia"
+  focal_point: "Center"
   preview_only: false
 
 # Custom links (optional).

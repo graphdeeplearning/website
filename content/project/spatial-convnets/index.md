@@ -5,7 +5,7 @@ title: "Spatial Graph ConvNets"
 
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-authors: [xavier.bresson, "Thomas Laurent"]
+authors: [vijay.dwivedi, xavier.bresson, "Thomas Laurent"]
 
 tags: [Deep Learning, Graph Neural Networks, Models, Spatial Graph ConvNets]
 

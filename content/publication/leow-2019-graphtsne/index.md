@@ -28,9 +28,9 @@ tags:
 
 featured: false
 
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+- name: Blog
+  url: https://leowyy.github.io/graphtsne
 
 url_pdf: https://arxiv.org/pdf/1904.06915
 url_code: https://github.com/leowyy/GraphTSNE
@@ -40,6 +40,7 @@ url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
+
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

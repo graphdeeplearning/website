@@ -2,6 +2,7 @@
 title: "An Efficient Graph Convolutional Network Technique for the Travelling Salesman Problem"
 authors:
 - chaitanya.joshi
+- "Thomas Laurent"
 - xavier.bresson
 date: 2019-01-01
 doi: ""
@@ -41,9 +42,9 @@ url_code: https://github.com/chaitjo/graph-convnet-tsp
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'http://helper.ipam.ucla.edu/publications/glws4/glws4_16076.pdf'
 url_source: ''
-url_video: ''
+url_video: 'http://www.ipam.ucla.edu/abstract/?tid=16076&pcode=GLWS4'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
