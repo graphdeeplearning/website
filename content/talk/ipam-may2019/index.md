@@ -4,7 +4,7 @@
 title: "Graph Convolutional Neural Networks for Molecule Generation and Travelling Salesman Problem"
 event: "Workshop on Deep Geometric Learning of Big Data and Applications"
 event_url: https://www.ipam.ucla.edu/programs/workshops/workshop-iv-deep-geometric-learning-of-big-data-and-applications/?tab=overview
-location: "Institute for Pure and Applied Mathematics, UCLA, Los Angeles, CA, USA"
+location: "Institute for Pure and Applied Mathematics, UCLA"
 address:
   street:
   city:

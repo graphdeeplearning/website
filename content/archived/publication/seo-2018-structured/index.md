@@ -33,7 +33,7 @@ featured: false
 #   url: http://example.org
 
 url_pdf: https://arxiv.org/pdf/1612.07659
-url_code: 'https://github.com/youngjoo-epfl/gconvRNN'
+url_code: https://github.com/youngjoo-epfl/gconvRNN
 url_dataset: ''
 url_poster: ''
 url_project: ''

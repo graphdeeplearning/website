@@ -4,7 +4,7 @@
 title: "Convolutional Neural Networks on Graphs"
 event: "New Deep Learning Techniques Workshop"
 event_url: http://www.ipam.ucla.edu/programs/workshops/new-deep-learning-techniques/?tab=overview
-location: "Institute for Pure and Applied Mathematics, UCLA, Los Angeles, CA, USA"
+location: "Institute for Pure and Applied Mathematics, UCLA"
 address:
   street:
   city:
