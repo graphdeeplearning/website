@@ -15,7 +15,7 @@ role: Assoc. Professor of Computer Science
 # Organizations/Affiliations
 organizations:
 - name: Nanyang Technological University
-  url: ""
+  url: "http://www.ntu.edu.sg"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

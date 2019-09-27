@@ -15,7 +15,7 @@ role: Research Assistant
 # Organizations/Affiliations
 organizations:
 - name: Nanyang Technological University
-  url: ""
+  url: "http://www.ntu.edu.sg"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Chaitanya Joshi is a Research Assistant at NTU, Singapore under Dr. Xavier Bresson, working on new Geometric Deep Learning approaches for Operations Research.
