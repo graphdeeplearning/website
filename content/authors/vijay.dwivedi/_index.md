@@ -23,15 +23,15 @@ bio: Vijay Dwivedi is a first year PhD student working with Dr. Xavier Bresson t
 interests:
 - Graph Neural Networks
 - Natural Language Processing
-- Multi-modal Systems
+- Multi-Modal Systems
 
 education:
   courses:
   - course: PhD in Machine Learning
-    institution: Nanyang Technological University, Singapore
+    institution: Nanyang Technological University
     year: 2019 - Present
   - course: BTech in Computer Science
-    institution: Motilal Nehru National Institute of Technology, Allahabad, India
+    institution: Motilal Nehru National Institute of Technology
     year: 2014 - 2018  
 
 # Social/Academic Networking
@@ -71,4 +71,4 @@ user_groups:
 Vijay Dwivedi is a first year PhD student in Machine Learning at NTU, Singapore supervised by Dr. Xavier Bresson. 
 His primary interest is developing Deep Learning algorithms on graph-structured data and their applications to domains such as quantum chemistry, social networks, etc.
 
-Before starting his PhD, Vijay worked with Dr. Bresson as a Research Assistant in the same lab. He has a background in Computer Science (BTech) from MNNIT Allahabad, where he explored the fields of Natural Language Processing and Multi-modal Systems.
+Before starting his PhD, Vijay worked with Dr. Bresson as a Research Assistant in the same lab. He has a background in Computer Science (BTech) from MNNIT Allahabad, where he explored the fields of Natural Language Processing and Multi-Modal Systems.
