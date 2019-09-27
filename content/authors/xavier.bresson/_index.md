@@ -15,7 +15,7 @@ role: Assoc. Professor of Computer Science
 # Organizations/Affiliations
 organizations:
 - name: Nanyang Technological University
-  url: ""
+  url: http://www.ntu.edu.sg
 
 # Short bio (displayed in user profile at end of posts)
 bio: Xavier Bresson is Associate Professor in Computer Science at NTU, Singapore. He is a leading researcher in the field of Graph Deep Learning, a new framework that combines graph theory and deep learning techniques.

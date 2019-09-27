@@ -15,7 +15,7 @@ role: PhD Student
 # Organizations/Affiliations
 organizations:
 - name: Nanyang Technological University
-  url: "http://www.ntu.edu.sg"
+  url: http://www.ntu.edu.sg
 
 # Short bio (displayed in user profile at end of posts)
 bio: Vijay Dwivedi is a first year PhD student working with Dr. Xavier Bresson to develop Neural Networks for graph-structured data. He has an experience using Deep Learning for applications in Natural Language Processing and Computer Vision.
