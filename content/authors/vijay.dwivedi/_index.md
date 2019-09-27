@@ -29,10 +29,10 @@ education:
   courses:
   - course: PhD in Machine Learning
     institution: Nanyang Technological University
-    year: 2019 - Present
+    year: Ongoing
   - course: BTech in Computer Science
     institution: Motilal Nehru National Institute of Technology
-    year: 2014 - 2018  
+    year: 2018  
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
