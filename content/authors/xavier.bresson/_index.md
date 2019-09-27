@@ -18,12 +18,15 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+bio: Xavier Bresson is Associate Professor in Computer Science at NTU, Singapore. He is a leading researcher in the field of Graph Deep Learning, a new framework that combines graph theory and deep learning techniques.
 
 interests:
 - Graph Neural Networks
 - Spectral Graph Theory
 - Computer Vision
+- Natural Language Processing
+- Quantum Chemistry
+- Operations Research
 
 education:
   courses:
@@ -71,4 +74,4 @@ user_groups:
 - All
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Xavier Bresson (PhD 2005, EPFL, Switzerland) is Associate Professor in Computer Science at NTU, Singapore. He is a leading researcher in the field of Graph Deep Learning, a new framework that combines graph theory and deep learning techniques to tackle complex data domains in natural language processing, computer vision, combinatorial optimization, quantum chemistry, physics, neuroscience, genetics and social networks. In 2016, he received the highly competitive Singaporean NRF Fellowship of $2.5M to develop these deep learning techniques.  He was also awarded several research grants in the U.S. and Hong Kong. As a leading researcher in the field, he has published more than 60 peer-reviewed papers in the leading journals and conference proceedings in machine learning, including articles in NeurIPS, ICML, ICLR, CVPR, JMLR. He has organized several international workshops and tutorials on AI and deep learning in collaboration with Facebook, NYU and Imperial such as the [2019](https://bit.ly/2N65idn) and [2018 UCLA workshops](https://bit.ly/2TC0hug), the [2017 CVPR tutorial](https://bit.ly/2vJbRa0) and the [2017 NeurIPS tutorial](https://bit.ly/2YsFvOx). He has been teaching undergraduate, graduate and industrial courses in AI and deep learning since 2014 at EPFL (Switzerland), NTU (Singapore) and [UCLA (U.S.)](https://bit.ly/2FuDQAF).

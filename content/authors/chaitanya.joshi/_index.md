@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Chaitanya Joshi is a Research Assistant at NTU, Singapore under Dr. Xavier Bresson, working on new Geometric Deep Learning approaches for Operations Research.
+bio: Chaitanya Joshi is a Research Assistant under Dr. Xavier Bresson at NTU, Singapore, applying Graph Neural Networks to Operations Research and Combinatorial Optimization.
 
 interests:
 - Operations Research
@@ -67,6 +67,4 @@ user_groups:
 - All
 ---
 
-Chaitanya Joshi is a Research Assistant at NTU, Singapore under Dr. Xavier Bresson, working on new Geometric Deep Learning approaches for Operations Research.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+Chaitanya Joshi is a Research Assistant under Dr. Xavier Bresson at NTU, Singapore. He graduated from NTU in 2019 as the Valedictorian of his cohort with a BEng in Computer Science and a specialization in Artificial Intelligence. He is passionate about building software solutions for real-world problems using Machine Learning, and has 3+ years of experience doing the same at companies and research labs in Singapore and Switzerland. He has co-authored 3 US patent applications and 3 research papers at top Machine Learning conferences such as NeurIPS and ICLR. His current research focuses on the emerging field of Graph Deep Learning and its applications for Operations Research and Combinatorial Optimization.
