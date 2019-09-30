@@ -18,7 +18,7 @@ organizations:
   url: http://www.ntu.edu.sg
 
 # Short bio (displayed in user profile at end of posts)
-bio: David Low is a PhD student working with Assoc Prof. Xavier Bresson at NTU, doing research in Natural Language Processing and Deep Learning topics.  
+bio: David Low is a PhD student working with Dr. Xavier Bresson at NTU, doing research in Natural Language Processing and Deep Learning topics.  
 
 interests:
 - Natural Language Processing
@@ -32,7 +32,7 @@ education:
     year: Ongoing
   - course: MTech in Knowledge Engineering
     institution: National University of Singapore
-    year: 2016      
+    year: 2016
   - course: BEng in Electronic & Communication Engineering
     institution: Curtin University of Technology
     year: 2009  
@@ -73,6 +73,6 @@ user_groups:
 
 David Low is currently a PhD student under School of Computer Science & Engineering, NTU supervised by Associate Professor Xavier Bresson. His current research focuses on Deep Learning and its applications for Natural Language Processing. 
 
-Before starting his PhD, he cofounded two startups and worked as a data scientist at Infocomm Development Authority, Singapore. In 2016, he represented Singapore and National University of Singapore (NUS) in Data Science Game at France and clinched top spot among Asia and America teams. 
+Before starting his PhD, he cofounded two startups and worked as a data scientist at Infocomm Development Authority, Singapore. In 2016, he represented Singapore and National University of Singapore (NUS) in Data Science Game at France and clinched top spot among teams from Asia and America. 
 
 Throughout his career, David has engaged in data science projects ranging from banking, telco, e-commerce to insurance industry. Some of his works including sales forecast modeling, mineral deposits prediction and process optimization had won him awards in several machine learning competitions. Earlier in his career, David was involved in research collaborations with Carnegie Mellon University (CMU) and Massachusetts Institute of Technology (MIT) on separate projects funded by National Research Foundation and SMART.
