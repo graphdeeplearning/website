@@ -18,13 +18,24 @@ organizations:
   url: http://www.ntu.edu.sg
 
 # Short bio (displayed in user profile at end of posts)
-bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+bio: David Low is a PhD student working with Assoc Prof. Xavier Bresson at NTU, doing research in Natural Language Processing and Deep Learning topics.  
 
 interests:
 - Natural Language Processing
+- Computer Vision
+- Deep Learning
 
 education:
   courses:
+  - course: PhD in Artificial Intelligence
+    institution: Nanyang Technological University
+    year: Ongoing
+  - course: MTech in Knowledge Engineering
+    institution: National University of Singapore
+    year: 2016      
+  - course: BEng in Electronic & Communication Engineering
+    institution: Curtin University of Technology
+    year: 2009  
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -33,7 +44,22 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:david.low@ntu.edu.sg'
+  link: 'mailto:jiawei007@e.ntu.edu.sg'
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/davidlowjw
+- icon: github
+  icon_pack: fab
+  link: https://github.com/davidlowjw
+- icon: linkedin
+  icon_pack: fab
+  link: https://linkedin.com/in/davidlowjw
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=OT1TjkgAAAAJ
+- icon: globe
+  icon_pack: fas
+  link: http://davidlowjw.github.io
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -45,4 +71,8 @@ user_groups:
 - All
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+David Low is currently a PhD student under School of Computer Science & Engineering, NTU supervised by Associate Professor Xavier Bresson. His current research focuses on Deep Learning and its applications for Natural Language Processing. 
+
+Before starting his PhD, he cofounded two startups and worked as a data scientist at Infocomm Development Authority, Singapore. In 2016, he represented Singapore and National University of Singapore (NUS) in Data Science Game at France and clinched top spot among Asia and America teams. 
+
+Throughout his career, David has engaged in data science projects ranging from banking, telco, e-commerce to insurance industry. Some of his works including sales forecast modeling, mineral deposits prediction and process optimization had won him awards in several machine learning competitions. Earlier in his career, David was involved in research collaborations with Carnegie Mellon University (CMU) and Massachusetts Institute of Technology (MIT) on separate projects funded by National Research Foundation and SMART.
