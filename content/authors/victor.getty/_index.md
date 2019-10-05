@@ -18,7 +18,7 @@ organizations:
   url: http://www.ntu.edu.sg
 
 # Short bio (displayed in user profile at end of posts)
-bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+bio: Victor Getty is a Research Assistant under Dr. Xavier Bresson at NTU, Singapore, working on applications of Graph Neural Networks to Quantum Chemistry.
 
 interests:
 - Quantum Chemistry
@@ -27,7 +27,7 @@ education:
   courses:
   - course: BSc in Mathematics
     institution: Nanyang Technological University
-    year: 2014
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -37,6 +37,13 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:victor.getty@ntu.edu.sg' 
+- icon: github
+  icon_pack: fab
+  link: https://github.com/ivicts
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/victorgetty/
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -48,4 +55,4 @@ user_groups:
 - All
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Victor Getty is a Research Assistant under Dr. Xavier Bresson at NTU, Singapore, working on applications of Graph Neural Networks to Quantum Chemistry. He graduated from NTU in 2018 with a BSc in Mathematics.

@@ -18,7 +18,7 @@ organizations:
   url: http://www.ntu.edu.sg
 
 # Short bio (displayed in user profile at end of posts)
-bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+bio: Peng Xu is a Postdoctoral Scholar working with Dr. Xavier Bresson at NTU, Singapore.
 
 interests:
 - Sketch Analysis
@@ -26,15 +26,28 @@ interests:
 
 education:
   courses:
+  - course: PhD in Machine Learning
+    institution: Beijing University of Posts and Telecommunications
+    year: 2019
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:peng.xu@ntu.edu.sg'
+- icon: github
+  icon_pack: fab
+  link: https://github.com/PengBoXiangShang
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=9_v4tC0AAAAJ&hl=en
+- icon: globe
+  icon_pack: fas
+  link: http://www.pengxu.net/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -46,4 +59,5 @@ user_groups:
 - All
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Peng Xu is a Postdoctoral Scholar working with Dr. Xavier Bresson at NTU, Singapore. He received his PhD degree from Pattern Recognition and Intelligent System Laboratory (PRIS) in Beijing University of Posts and Telecommunications (BUPT), supervised by Prof. Jun Guo. His research interests include computer vision, deep learning and machine learning.
+During his PhD, he was a visiting student in sketchX Lab, Queen Mary University of London (QMUL) and the National Laboratory of Pattern Recognition (NLPR), Institute of Automation, Chinese Academy of Sciences (CASIA).
