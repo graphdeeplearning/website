@@ -26,7 +26,7 @@ interests:
 - Computer Vision
 - Natural Language Processing
 - Quantum Chemistry
-- Operations Research
+- Combinatorial Optimization
 
 education:
   courses:

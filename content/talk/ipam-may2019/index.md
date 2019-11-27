@@ -25,7 +25,7 @@ all_day: false
 publishDate: 2019-09-18T15:41:13+08:00
 
 authors: [xavier.bresson]
-tags: [Deep Learning, Graph Neural Networks, Talks, Operations Research, Chemistry]
+tags: [Deep Learning, Graph Neural Networks, Talks, Operations Research, Combinatorial Optimization, Chemistry]
 
 # Is this a featured talk? (true/false)
 featured: false
@@ -62,6 +62,6 @@ slides: ""
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- operations-research
+- combinatorial-optimization
 - chemistry
 ---

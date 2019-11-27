@@ -21,7 +21,7 @@ organizations:
 bio: Chaitanya Joshi is a Research Assistant under Dr. Xavier Bresson at NTU, Singapore, applying Graph Neural Networks to Operations Research and Combinatorial Optimization.
 
 interests:
-- Operations Research
+- Combinatorial Optimization
 - Natural Language Processing
 
 education:
