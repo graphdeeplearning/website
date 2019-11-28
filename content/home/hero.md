@@ -34,19 +34,20 @@ hero_media = ""
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 
-[cta]
-  url = "https://twitter.com/xbresson"
-  label = "Follow our work"
-  icon_pack = "fab"
-  icon = "twitter"
+#[cta]
+#  url = "https://twitter.com/xbresson"
+#  label = "Follow our work"
+#  icon_pack = "fab"
+#  icon = "twitter"
   
-[cta_alt]
-  url = "#publications"
-  label = "Latest Papers"
+#[cta_alt]
+#  url = "#publications"
+#  label = "Latest Papers"
 
 # Note. An optional note to show underneath the links.
 #[cta_note]
 #  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release</a>'
 +++
 
+\
 We investigate fundamental problems in **Graph Deep Learning**, a new framework that combines graph theory and deep neural networks to tackle complex data domains in physical science, natural language processing, computer vision, and combinatorial optimization.
