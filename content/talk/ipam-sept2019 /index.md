@@ -7,10 +7,10 @@ event_url: http://www.ipam.ucla.edu/programs/workshops/workshop-i-from-passive-t
 location: "Institute for Pure and Applied Mathematics, UCLA"
 address:
   street:
-  city:
-  region:
+  city: Los Angeles
+  region: CA
   postcode:
-  country:
+  country: US
 
 summary: 
 

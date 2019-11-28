@@ -7,10 +7,10 @@ event_url: https://www.ipam.ucla.edu/programs/workshops/workshop-iv-deep-geometr
 location: "Institute for Pure and Applied Mathematics, UCLA"
 address:
   street:
-  city:
-  region:
+  city: Los Angeles
+  region: CA
   postcode:
-  country:
+  country: US
 
 summary: 
 

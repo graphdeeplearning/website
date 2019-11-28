@@ -4,13 +4,13 @@
 title: "Graph Neural Networks for the Travelling Salesman Problem"
 event: "Boosting Combinatorial Optimization using Machine Learning"
 event_url: http://meetings2.informs.org/wordpress/seattle2019/
-location: "INFORMS Annual Meeting, 2019"
+location: "INFORMS Annual Meeting 2019"
 address:
   street:
-  city:
-  region:
+  city: Seattle
+  region: WA
   postcode:
-  country:
+  country: US
 
 summary: 
 

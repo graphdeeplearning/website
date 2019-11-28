@@ -36,7 +36,7 @@ hero_media = ""
 
 [cta]
   url = "https://twitter.com/xbresson"
-  label = "Follow on Twitter"
+  label = "Follow our work"
   icon_pack = "fab"
   icon = "twitter"
   
