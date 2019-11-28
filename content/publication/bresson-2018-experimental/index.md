@@ -16,7 +16,7 @@ publishDate: 2019-09-17T00:46:25.619962Z
 publication_types: ["3"]
 
 # Publication name
-publication: "*International Conference on Learning Representations (Workshop)*"
+publication: "*ICLR 2018 Workshop*"
 
 abstract: "Graph-structured data such as social networks, functional brain networks, chemical molecules have brought the interest in generalizing deep learning techniques to graph domains. In this work, we propose an empirical study of neural networks for graphs with variable size and connectivity. We rigorously compare several graph recurrent neural networks (RNNs) and graph convolutional neural networks (ConvNets) to solve two fundamental and representative graph problems, subgraph matching and graph clustering. Numerical results show that graph ConvNets are 3-17% more accurate and 1.5-4x faster than graph RNNs. Interestingly, graph ConvNets are also 36% more accurate than non-learning (variational) techniques. The benefit of such study is to show that complex architectures like LSTM is not useful in the context of graph neural networks, but one should favour architectures with minimal inner structures, such as locality, weight sharing, index invariance, multi-scale, gates and residuality, to design efficient novel neural network models for applications like drugs design, genes analysis and particle physics."
 

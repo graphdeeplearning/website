@@ -14,7 +14,7 @@ publishDate: 2019-09-17T00:46:25.621256Z
 publication_types: ["3"]
 
 # Publication name
-publication: "*International Conference on Learning Representations (Workshop)*"
+publication: "*ICLR 2019 Workshop on Representation Learning on Graphs and Manifolds*"
 
 abstract: "We present GraphTSNE, a novel visualization technique for graph-structured data based on t-SNE. The growing interest in graph-structured data increases the importance of gaining human insight into such datasets by means of visualization. However, among the most popular visualization techniques, classical t-SNE is not suitable on such datasets because it has no mechanism to make use of information from graph connectivity. On the other hand, standard graph visualization techniques, such as Laplacian Eigenmaps, have no mechanism to make use of information from node features. Our proposed method GraphTSNE is able to produce visualizations which account for both graph connectivity and node features. It is based on scalable and unsupervised training of a graph convolutional network on a modified t-SNE loss. By assembling a suite of evaluation metrics, we demonstrate that our method produces desirable visualizations on three benchmark datasets."
 

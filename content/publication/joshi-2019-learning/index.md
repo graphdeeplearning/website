@@ -17,7 +17,7 @@ publishDate: 2019-09-17T00:46:25.621256Z
 publication_types: ["3"]
 
 # Publication name
-publication: "*Neural Information Processing Systems (Workshop)*"
+publication: "*NeurIPS 2019 Workshop on Graph Representation Learning*"
 
 abstract: "We explore the impact of learning paradigms on training deep neural networks for the Travelling Salesman Problem. We design controlled experiments to train supervised learning (SL) and reinforcement learning (RL) models on fixed graph sizes up to 100 nodes, and evaluate them on variable sized graphs up to 500 nodes. Beyond not needing labelled data, our results reveal favorable properties of RL over SL: RL training leads to better emergent generalization to variable graph sizes and is a key component for learning scale-invariant solvers for novel combinatorial problems."
 
