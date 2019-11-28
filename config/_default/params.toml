@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = "NTU Graph Deep Learning Lab"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "The NTU Graph Deep Learning Lab, headed by Dr. Xavier Bresson, investigates fundamental problems in Graph Deep Learning, a new framework that combines graph theory and deep neural networks to tackle complex data domains in physical science, natural language processing, computer vision, and combinatorial optimization."
+description = "The NTU Graph Deep Learning Lab, headed by Dr. Xavier Bresson, investigates fundamental techniques in Graph Deep Learning, a new framework that combines graph theory and deep neural networks to tackle complex data domains in physical science, natural language processing, computer vision, and combinatorial optimization."
 
 # Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
