@@ -44,7 +44,7 @@ social:
   link: 'mailto:VIJAYPRA001@e.ntu.edu.sg'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/vijay39560
+  link: https://twitter.com/vijaypradwi
 - icon: github
   icon_pack: fab
   link: https://github.com/vijaydwivedi75

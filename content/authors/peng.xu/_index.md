@@ -59,5 +59,7 @@ user_groups:
 - All
 ---
 
-Peng Xu is a Postdoctoral Scholar working with Dr. Xavier Bresson at NTU, Singapore. He received his PhD degree from Pattern Recognition and Intelligent System Laboratory (PRIS) in Beijing University of Posts and Telecommunications (BUPT), supervised by Prof. Jun Guo. His research interests include computer vision, deep learning and machine learning.
+Peng Xu is a Postdoctoral Scholar working with Dr. Xavier Bresson at NTU, Singapore. 
+His current research focuses on sketch-based human-computer interaction and representation learning for sketches, as well as computer vision. 
+He received his PhD degree from Pattern Recognition and Intelligent System Laboratory (PRIS) in Beijing University of Posts and Telecommunications (BUPT), supervised by Prof. Jun Guo. 
 During his PhD, he was a visiting student in sketchX Lab, Queen Mary University of London (QMUL) and the National Laboratory of Pattern Recognition (NLPR), Institute of Automation, Chinese Academy of Sciences (CASIA).

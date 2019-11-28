@@ -67,4 +67,9 @@ user_groups:
 - All
 ---
 
-Chaitanya Joshi is a Research Assistant under Dr. Xavier Bresson at NTU, Singapore. He graduated from NTU in 2019 as the Valedictorian of his cohort with a BEng in Computer Science and a specialization in Artificial Intelligence. He is passionate about building software solutions for real-world problems using Machine Learning, and has 3+ years of experience doing the same at companies and research labs in Singapore and Switzerland. He has co-authored 3 US patent applications and 3 research papers at top Machine Learning conferences such as NeurIPS and ICLR. His current research focuses on the emerging field of Graph Deep Learning and its applications for Operations Research and Combinatorial Optimization.
+Chaitanya Joshi is a Research Assistant under Dr. Xavier Bresson at NTU, Singapore. 
+His current research focuses on the emerging field of Graph Deep Learning and its applications for Operations Research and Combinatorial Optimization.
+
+He graduated from NTU in 2019 as the Valedictorian of his cohort with a BEng in Computer Science and a specialization in Artificial Intelligence. 
+He is passionate about building data-driven solutions for real-world problems, and has 3+ years of experience doing the same at companies and research labs in Singapore and Switzerland. 
+He has co-authored 3 US patent applications and 4 research papers at top Machine Learning conferences such as NeurIPS and ICLR. 

@@ -46,7 +46,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_slides: https://chaitjo.github.io/assets/informs19.pdf
+url_slides: /files/informs-oct2019.pdf
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

@@ -3,9 +3,9 @@
 
 title: "Quantum Chemistry"
 
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+summary: "Predictive models for chemical synthesis, structure and properties using deep learning."
 
-authors: [victor.getty, xavier.bresson, "Thomas Laurent"]
+authors: [victor.getty, xavier.bresson]
 
 tags: [Deep Learning, Graph Neural Networks, Applications, Chemistry]
 
