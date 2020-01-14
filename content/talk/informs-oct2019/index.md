@@ -47,6 +47,7 @@ image:
 #   icon: twitter
 
 url_slides: /files/informs-oct2019.pdf
+url_poster: /files/tsp-neurips2019-poster.pdf
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

@@ -40,7 +40,7 @@ featured: false
 url_pdf: https://arxiv.org/pdf/1910.07210.pdf
 url_code: https://github.com/chaitjo/learning-paradigms-for-tsp
 url_dataset: ''
-url_poster: ''
+url_poster: /files/tsp-neurips2019-poster.pdf
 url_project: ''
 url_slides: /files/informs-oct2019.pdf
 url_source: ''
