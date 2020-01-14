@@ -23,7 +23,6 @@ bio: David Low is a PhD student working with Dr. Xavier Bresson at NTU, doing re
 interests:
 - Natural Language Processing
 - Computer Vision
-- Deep Learning
 
 education:
   courses:

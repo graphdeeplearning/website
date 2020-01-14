@@ -18,10 +18,10 @@ organizations:
   url: http://www.ntu.edu.sg
 
 # Short bio (displayed in user profile at end of posts)
-bio: Peng Xu is a Postdoctoral Scholar working with Dr. Xavier Bresson at NTU, Singapore.
+bio: Peng Xu is a Postdoctoral Scholar at NTU, Singapore with Dr. Xavier Bresson, working on computer vision and free-hand sketches.
 
 interests:
-- Sketch Analysis
+- Free-hand Sketches
 - Computer Vision
 
 education:
