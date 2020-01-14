@@ -3,7 +3,7 @@
 
 title: "Free-hand Sketches"
 
-summary: "Representation learning for drawings, represented as graphs with geometric and temporal information."
+summary: "Representation learning for sketches and drawings through graphs with geometric and temporal information."
 
 authors: [peng.xu, chaitanya.joshi, xavier.bresson]
 
