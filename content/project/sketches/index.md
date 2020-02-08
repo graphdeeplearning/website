@@ -3,9 +3,9 @@
 
 title: "Free-hand Sketches"
 
-summary: "Representation learning for sketches and drawings through graphs with geometric and temporal information."
+summary: "Representation learning for drawings via graphs with geometric and temporal information."
 
-authors: [peng.xu, chaitanya.joshi, xavier.bresson]
+authors: [chaitanya.joshi, peng.xu, xavier.bresson]
 
 tags: [Deep Learning, Computer Vision, Graph Neural Networks, Applications, Sketches]
 
@@ -44,3 +44,21 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+## Representation Learning for Sketches
+
+Human beings have been creating free-hand sketches, *i.e.*, drawings without precise instruments, since [time immemorial](https://en.wikipedia.org/wiki/Cave_painting).
+Due to the popularity of touchscreen interfaces, machine learning using sketches has emerged as an interesting problem with a myriad of applications:
+If we consider sketches as 2D images, We can throw them into off-the-shelf [Convolutional Neural Networks (CNNs)](https://arxiv.org/abs/1501.07873).
+While CNNs are designed for *static* collections of pixels with *dense* colors and textures,
+sketches are usually an extremely *sparse* sequences of strokes which capture high-level abstractions and ideas. [Recurrent Neural Networks (RNNs)](https://ai.googleblog.com/2017/04/teaching-machines-to-draw.html) stick out as a natural architecture for capturing this temporal nature of sketches.
+
+>*Structure vs. temporal order: can we have the best of both worlds?*
+
+## Sketches as Graphs
+
+We are working on a novel representation of free-hand sketches as **sparsely-connected graphs**. 
+We assume that sketches are sets of curves and strokes, which are discretized by a set of points representing the graph nodes.
+Each node encodes spatial, temporal and semantic information.
+Thus, representing sketches with graphs offers a universal representation that can make use of both the sketch structure (like images) as well as temporal information (like stroke sequences).
+To exploit these graph structures, we are developing **Graph Neural Networks (GNNs)** based on the Transformer model [[*Vaswani et al.*, 2017]](https://arxiv.org/abs/1706.03762). 

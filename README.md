@@ -3,6 +3,7 @@
 ### Installation/Usage
 
 Please follow the instructions for the [Academic theme](https://sourcethemes.com/academic/).
+Documentation for creating new content can be found [here](https://sourcethemes.com/academic/docs/managing-content/).
 
 ### Contribution Rules
 

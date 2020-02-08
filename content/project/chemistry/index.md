@@ -3,7 +3,7 @@
 
 title: "Quantum Chemistry"
 
-summary: "Predictive models for chemical synthesis, structure and properties using deep learning."
+summary: "Chemical synthesis, structure and property prediction using deep neural networks."
 
 authors: [victor.getty, xavier.bresson]
 
