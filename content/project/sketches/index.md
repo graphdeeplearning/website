@@ -49,7 +49,7 @@ slides: ""
 
 Human beings have been creating free-hand sketches, *i.e.*, drawings without precise instruments, since [time immemorial](https://en.wikipedia.org/wiki/Cave_painting).
 Due to the popularity of touchscreen interfaces, machine learning using sketches has emerged as an interesting problem with a myriad of applications:
-If we consider sketches as 2D images, We can throw them into off-the-shelf [Convolutional Neural Networks (CNNs)](https://arxiv.org/abs/1501.07873).
+If we consider sketches as 2D images, we can throw them into off-the-shelf [Convolutional Neural Networks (CNNs)](https://arxiv.org/abs/1501.07873).
 While CNNs are designed for *static* collections of pixels with *dense* colors and textures,
 sketches are usually an extremely *sparse* sequences of strokes which capture high-level abstractions and ideas. [Recurrent Neural Networks (RNNs)](https://ai.googleblog.com/2017/04/teaching-machines-to-draw.html) stick out as a natural architecture for capturing this temporal nature of sketches.
 
