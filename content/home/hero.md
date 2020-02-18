@@ -25,7 +25,7 @@ hero_media = ""
   
   # Background image.
   image = "network.jpg"  # Name of image in `static/img/`.
-  image_darken = 0.05  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image_darken = 0.15  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
   text_color_light = true
@@ -34,15 +34,15 @@ hero_media = ""
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 
-#[cta]
-#  url = "https://twitter.com/xbresson"
-#  label = "Follow our work"
-#  icon_pack = "fab"
-#  icon = "twitter"
+[cta]
+  url = "/reading-group"
+  label = "Reading Group"
+  icon_pack = "fa"
+  icon = "book"
   
-#[cta_alt]
-#  url = "#publications"
-#  label = "Latest Papers"
+[cta_alt]
+  url = "#publications"
+  label = "Latest Papers"
 
 # Note. An optional note to show underneath the links.
 #[cta_note]
