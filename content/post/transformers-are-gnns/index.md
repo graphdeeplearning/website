@@ -36,6 +36,36 @@ projects:
 - spatial-convnets
 ---
 
+
+Research friends often ask me: Graph Deep Learning sounds great, but are there any big compercial success stories? Is it being deployed in practical applications?
+Besides the obvious ones--recommendation systems at [Pinterest](https://arxiv.org/abs/1806.01973), [Alibaba](https://arxiv.org/abs/1902.08730) and [Twitter](https://blog.twitter.com/en_us/topics/company/2019/Twitter-acquires-Fabula-AI.html)--a slightly nuanced success story is the [Transformer architecture](https://arxiv.org/abs/1706.03762), which has taken the NLP world by storm.
+
+Through this post, I want to establish links between graph neural networks and Transformers.
+I'll talk about the intuitions driving model architectures in the GNN and NLP communities, draw parallels using formal equations, and discuss how we can work together to drive progress.
+Let's start by thinking about what model architectures are designed to do.
+
+---
+
+![GNNs for social network applications](gnn-social-network.jpg)
+
+![RNNs/Transformers for NLP tasks](rnn-transf-nlp.jpg)
+
+![GNNs for NLP tasks](gnn-nlp.jpg)
+
+---
+
+## More Resources
+
+To dive deep into the Transformer architecture, watch this [thorough video overview](https://www.youtube.com/watch?v=iDulhoQ2pro) or check out these amazing blog posts: [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html) and [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/). (Or [this comprehensive list](https://github.com/sannykim/transformers) of resources to study the Transformer.)
+
+This blog isn't the first to highlight the connection between GNNs and Transformers. 
+Here's [an excellent talk](https://ipam.wistia.com/medias/1zgl4lq6nh) by Arthur Szlam on the history of Attention, Memory Networks and Transformers.
+Similarly, DeepMind's [star-studded position paper](https://arxiv.org/abs/1806.01261) introduces the Graph Networks framework, unifying all these ideas.
+For code, the DGL team has [a nice tutorial](https://docs.dgl.ai/en/latest/tutorials/models/4_old_wines/7_transformer.html) on building the Transformer as a GNN (and [a related paper](https://arxiv.org/pdf/1911.04070.pdf) on making the implementation efficient).
+
+Finally, we wrote [a recent paper]({{<ref "/publication/xu-2019-multi/index.md">}}) applying Transformers to sketch graphs. Do check it out, too!
+
+
 <!-- 
 Research friends ask: what are some success stories of GNNs being practical? Besides the usual recommender systems and drug design, a slightly nuanced application is the Transformer architecture, an architecture which has seen rapid adoption in NLP for its advantages over RNNs.
 
@@ -63,9 +93,9 @@ Helpful blogpost: http://nlp.seas.harvard.edu/2018/04/03/attention.html
 http://jalammar.github.io/illustrated-transformer/
 https://github.com/sannykim/transformers
 Helpful YouTube video: https://www.youtube.com/watch?v=iDulhoQ2pro&t=3s
+
 Generic mathematical/graph formulation as ‘attention on fully-connected graphs’
 Arthur Szlam’s talk: https://ipam.wistia.com/medias/1zgl4lq6nh
 Graph Attention Network: https://arxiv.org/abs/1710.10903
-
-
  -->
+
