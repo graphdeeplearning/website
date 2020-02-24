@@ -41,7 +41,7 @@ markup: mmark
 ---
 
 
-Engineer friends often ask me: Graph Deep Learning sounds great, but are there any big compercial success stories? Is it being deployed in practical applications?
+Engineer friends often ask me: Graph Deep Learning sounds great, but are there any big commercial success stories? Is it being deployed in practical applications?
 
 Besides the obvious ones--recommendation systems at [Pinterest](https://medium.com/pinterest-engineering/pinsage-a-new-graph-convolutional-neural-network-for-web-scale-recommender-systems-88795a107f48), [Alibaba](https://arxiv.org/abs/1902.08730) and [Twitter](https://blog.twitter.com/en_us/topics/company/2019/Twitter-acquires-Fabula-AI.html)--a slightly nuanced success story is the [**Transformer architecture**](https://arxiv.org/abs/1706.03762), which has [taken](https://openai.com/blog/better-language-models/) [the](https://www.blog.google/products/search/search-language-understanding-bert/) [NLP](https://www.microsoft.com/en-us/research/project/large-scale-pretraining-for-response-generation/) [industry](https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/) [by](https://blog.einstein.ai/introducing-a-conditional-transformer-language-model-for-controllable-generation/) [storm](https://nv-adlr.github.io/MegatronLM).
 
@@ -66,7 +66,7 @@ At the end, we get a hidden feature for each word in the sentence, which we pass
 
 ![RNNs/Transformers for NLP tasks](rnn-transf-nlp.jpg)
 
-Initially introduced for machine translation, **Transformers** has gradually replaced RNNs in mainstream NLP. 
+Initially introduced for machine translation, **Transformers** have gradually replaced RNNs in mainstream NLP. 
 The architecture takes a fresh approach to representation learning: Doing away with recurrence entirely, Transformers build features of each word using an *[attention](https://distill.pub/2016/augmented-rnns/) [mechanism](https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html)* to figure out how important **all the other words** in the sentence are w.r.t. to the aforementioned word.
 Knowing this, the word's updated features are simply the sum of linear transformations of the features of all the words, weighted by their importace. 
 
@@ -87,7 +87,7 @@ i.e.,\;\ h_{i}^{\ell+1} = \sum_{j \in \mathcal{S}} w_{ij} \left( V^{\ell} h_{j}^
 \text{where} \;\ w_{ij} = \text{softmax}_j \left( Q^{\ell} h_{i}^{\ell} \cdot  K^{\ell} h_{j}^{\ell} \right), 
 $$
 
-where $Q^{\ell}, K^{\ell}, V^{\ell}$ are learnable linear weights (denoting the **Q**uery, **K**ey and **V**alue for the attention computation, respectively).
+where $j \in \mathcal{S}$ denotes the set of words in the sentence and $Q^{\ell}, K^{\ell}, V^{\ell}$ are learnable linear weights (denoting the **Q**uery, **K**ey and **V**alue for the attention computation, respectively).
 The attention mechanism is performed parallely for each word in the sentence to obtain their updated features in *one shot*--another plus point for Transformers over RNNs, which update features word-by-word.
 
 We can understand the attention mechanism better through the following pipeline:
@@ -132,16 +132,16 @@ $$
 
 The final picture of a Transformer layer looks like this:
 
-{{< figure src="transformer-block.jpg" title="" lightbox="true" width="380px">}}
+{{< figure src="transformer-block.png" title="" lightbox="true" width="400px">}}
 
-The Transformers architecture is also extremely ammenable to very deep networks, enabling the NLP community to *[scale](https://arxiv.org/abs/1910.10683) [up](https://arxiv.org/abs/2001.08361)* in terms of both model parameters and, by extension, data. 
+The Transformer architecture is also extremely ammenable to very deep networks, enabling the NLP community to *[scale](https://arxiv.org/abs/1910.10683) [up](https://arxiv.org/abs/2001.08361)* in terms of both model parameters and, by extension, data. 
 **Residual connections** between the inputs and outputs of each multi-head attention sub-layer and the feed-forward sub-layer are key for stacking Transformer layers (but ommited from the diagram for clarity). 
 
 ---
 
 ### GNNs build representations of graphs
 
-Let's take a step away from NLP. 
+Let's take a step away from NLP for a moment. 
 
 Graph Neural Networks (GNNs) or Graph Convolutional Networks (GCNs) build representations of nodes and edges in graph data. 
 They do so through **neighborhood aggregation** (or message passing), where each node gathers features from its neighbors to update its represention of the *local* graph structure around it.
@@ -179,7 +179,7 @@ Now, we can use a GNN to build features for each node (word) in the graph (sente
 ![GNNs for NLP tasks](gnn-nlp.jpg)
 
 Broadly, this is what Transformers are doing: they are **GNNs with multi-head attention** as the neighborhood aggregation function. 
-Where as standard GNNs aggregate features from their local neighborhood nodes $j \in \mathcal{N}(i)$,
+Whereas standard GNNs aggregate features from their local neighborhood nodes $j \in \mathcal{N}(i)$,
 Transformers for NLP treat the entire sentence $\mathcal{S}$ as the local neighborhood, essentially aggregating features from each word $j \in \mathcal{S}$ at each layer.
 
 Importantly, various problem-specific tricks--such as position encodings, causal/masked aggregation, learning rate schedules and extensive pre-training--are essential for the success of Transformers but seldom seem in the GNN community.
@@ -209,7 +209,7 @@ Making the attention mechanism [sparse](https://openai.com/blog/sparse-transform
 and using [Locality Sensitive Hashing](https://www.pragmatic.ml/reformer-deep-dive/) for efficient attention
 are all promising new ideas for better Transformers.
 
-It would be interesting to see ideas from the GNN community thrown into the mix, *e.g.*, [Binary Partitioning](https://arxiv.org/abs/1911.04070) for sentence graph sparsification seems like another exciting approach.
+It would be interesting to see ideas from the GNN community thrown into the mix, *e.g.*, [Binary Partitioning](https://arxiv.org/abs/1911.04070) for sentence **graph sparsification** seems like another exciting approach.
 
 {{< figure src="long-term-depend.png" title="" width="600px">}}
 
@@ -235,17 +235,18 @@ The multi-head neighborhood aggregation mechanism has proven effective in some G
 Although invented to stabilize attention mechanisms, could the multi-head trick become standard for squeezing out extra performance for any model?
 
 Conversely, GNNs with simpler aggregation functions such as sum or max do not require multiple aggregation heads for stable training. 
-Wouldn't it be nice for Transformers if we didn't have to compute pair-wise compatibilities between each word pair in the sentence/node pair in the graph?
+Wouldn't it be nice for Transformers if we didn't have to compute pair-wise compatibilities between each word pair in the sentence?
 
-Could Transformers benefit from ditching attention? Yann Dauphin and collaborators' [recent](https://arxiv.org/abs/1705.03122) [work](https://arxiv.org/abs/1901.10430) says its a possibility.
+Could Transformers benefit from ditching attention, altogether? Yann Dauphin and collaborators' [recent](https://arxiv.org/abs/1705.03122) [work](https://arxiv.org/abs/1901.10430) suggests an alternative **ConvNet architecture**.
 
 {{< figure src="attention-conv.png" title="" width="800px">}}
 
 
 #### Why is training Transformers so hard?
 
-Reading new Transformer papers makes me feel that training these models requires something akin to *black magic* when determining the best learning rate schedule, warmup strategy and decay settings.
+Reading new Transformer papers makes me feel that training these models requires something akin to *black magic* when determining the best **learning rate schedule, warmup strategy** and **decay settings**.
 This could simply be because the models are so huge and the NLP tasks studied are so challenging.
+
 But [recent](https://arxiv.org/abs/1906.01787) [results](https://arxiv.org/abs/1910.06764) [suggest](https://arxiv.org/abs/2002.04745) that it could also be due to the specific permutation of normalization and residual connections within the architecture.
 
 
