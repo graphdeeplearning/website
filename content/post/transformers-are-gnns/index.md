@@ -36,8 +36,6 @@ image:
 projects:
 - spatial-convnets
 - sketches
-
-markup: mmark
 ---
 
 
