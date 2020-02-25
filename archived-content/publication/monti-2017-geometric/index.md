@@ -1,6 +1,6 @@
 ---
 title: "Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks"
-authors: ["Federico Monti", "Michael Bronstein", xavier.bresson]
+authors: ["Federico Monti", "Michael Bronstein", xavier-bresson]
 date: 2017-01-01
 doi: ""
 

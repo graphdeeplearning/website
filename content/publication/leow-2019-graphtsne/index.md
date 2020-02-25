@@ -1,6 +1,6 @@
 ---
 title: "GraphTSNE: A Visualization Technique for Graph-Structured Data"
-authors: ["Yao Yang Leow", "Thomas Laurent", xavier.bresson]
+authors: ["Yao Yang Leow", "Thomas Laurent", xavier-bresson]
 date: 2019-01-01
 doi: ""
 

@@ -5,7 +5,7 @@ title: "Recommender Systems"
 
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-authors: [xavier.bresson, "Federico Monti", "Michael Bronstein"]
+authors: [xavier-bresson, "Federico Monti", "Michael Bronstein"]
 
 tags: [Deep Learning, Graph Neural Networks, Applications, Recommender Systems]
 

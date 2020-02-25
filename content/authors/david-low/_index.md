@@ -4,7 +4,7 @@ name: David Low Jia Wei
 
 # Username (this should match the folder name)
 authors:
-- david.low
+- david-low
 
 # Is this the primary user of the site?
 superuser: false

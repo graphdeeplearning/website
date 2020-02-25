@@ -4,7 +4,7 @@ name: Peng Xu
 
 # Username (this should match the folder name)
 authors:
-- peng.xu
+- peng-xu
 
 # Is this the primary user of the site?
 superuser: false
@@ -38,7 +38,7 @@ social:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:peng.xu@ntu.edu.sg'
+  link: 'mailto:peng-xu@ntu.edu.sg'
 - icon: github
   icon_pack: fab
   link: https://github.com/PengBoXiangShang

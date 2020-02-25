@@ -1,9 +1,9 @@
 ---
 title: "An Efficient Graph Convolutional Network Technique for the Travelling Salesman Problem"
 authors:
-- chaitanya.joshi
+- chaitanya-joshi
 - "Thomas Laurent"
-- xavier.bresson
+- xavier-bresson
 date: 2019-01-01
 doi: ""
 

@@ -4,7 +4,7 @@ name: Xavier Bresson
 
 # Username (this should match the folder name)
 authors:
-- xavier.bresson
+- xavier-bresson
 
 # Is this the primary user of the site?
 superuser: true

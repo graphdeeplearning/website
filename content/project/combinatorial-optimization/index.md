@@ -5,7 +5,7 @@ title: "Combinatorial Optimization"
 
 summary: "Scalable deep learning systems for practical NP-Hard combinatorial problems such as the TSP."
 
-authors: [chaitanya.joshi, xavier.bresson]
+authors: [chaitanya-joshi, xavier-bresson]
 
 tags: [Deep Learning, Graph Neural Networks, Applications, Operations Research, Combinatorial Optimization]
 

@@ -24,7 +24,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: 2019-09-18T15:41:13+08:00
 
-authors: [xavier.bresson]
+authors: [xavier-bresson]
 tags: [Deep Learning, Graph Neural Networks, Talks, Operations Research, Combinatorial Optimization, Chemistry]
 
 # Is this a featured talk? (true/false)

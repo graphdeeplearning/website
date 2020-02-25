@@ -5,7 +5,7 @@ title: "Quantum Chemistry"
 
 summary: "Chemical synthesis, structure and property prediction using deep neural networks."
 
-authors: [victor.getty, xavier.bresson]
+authors: [victor-getty, xavier-bresson]
 
 tags: [Deep Learning, Graph Neural Networks, Applications, Chemistry]
 

@@ -5,7 +5,7 @@ title: "Spatial Graph ConvNets"
 
 summary: "Graph Neural Network architectures for inductive representation learning on arbitrary graphs."
 
-authors: [chaitanya.joshi, vijay.dwivedi, xavier.bresson]
+authors: [chaitanya-joshi, vijay-dwivedi, xavier-bresson]
 
 tags: [Deep Learning, Graph Neural Networks, Models, Spatial Graph ConvNets]
 

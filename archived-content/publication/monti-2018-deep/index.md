@@ -1,6 +1,6 @@
 ---
 title: "Deep Geometric Matrix Completion: A New Way for Recommender Systems"
-authors: ["Federico Monti", "Michael Bronstein", xavier.bresson]
+authors: ["Federico Monti", "Michael Bronstein", xavier-bresson]
 date: 2018-01-01
 doi: ""
 

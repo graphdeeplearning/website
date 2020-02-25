@@ -1,7 +1,7 @@
 ---
 title: "An Experimental Study of Neural Networks for Variable Graphs"
 authors:
-- xavier.bresson
+- xavier-bresson
 - "Thomas Laurent"
 date: 2018-01-01
 doi: ""

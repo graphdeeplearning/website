@@ -1,7 +1,7 @@
 ---
 title: "A Two-Step Graph Convolutional Decoder for Molecule Generation"
 authors:
-- xavier.bresson
+- xavier-bresson
 - "Thomas Laurent"
 date: 2019-12-01
 doi: ""

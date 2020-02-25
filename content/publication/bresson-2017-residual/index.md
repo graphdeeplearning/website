@@ -1,7 +1,7 @@
 ---
 title: "Residual Gated Graph ConvNets"
 authors:
-- xavier.bresson
+- xavier-bresson
 - "Thomas Laurent"
 date: 2017-01-01
 doi: ""

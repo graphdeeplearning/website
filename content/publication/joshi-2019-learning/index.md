@@ -1,9 +1,9 @@
 ---
 title: "On Learning Paradigms for the Travelling Salesman Problem"
 authors:
-- chaitanya.joshi
+- chaitanya-joshi
 - "Thomas Laurent"
-- xavier.bresson
+- xavier-bresson
 date: 2019-12-01
 doi: ""
 

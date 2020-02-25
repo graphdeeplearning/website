@@ -1,6 +1,6 @@
 ---
 title: "Structured Sequence Modeling with Graph Convolutional Recurrent Networks"
-authors: ["Youngjoo Seo", "Michaël Defferrard", "Pierre Vandergheynst", xavier.bresson]
+authors: ["Youngjoo Seo", "Michaël Defferrard", "Pierre Vandergheynst", xavier-bresson]
 date: 2018-01-01
 doi: ""
 

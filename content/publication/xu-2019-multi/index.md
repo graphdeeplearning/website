@@ -1,6 +1,6 @@
 ---
 title: "Multi-Graph Transformer for Free-Hand Sketch Recognition"
-authors: [peng.xu, chaitanya.joshi, xavier.bresson]
+authors: [peng-xu, chaitanya-joshi, xavier-bresson]
 date: 2019-12-24
 doi: ""
 

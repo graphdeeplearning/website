@@ -5,7 +5,7 @@ title: "Free-hand Sketches"
 
 summary: "Representation learning for drawings via graphs with geometric and temporal information."
 
-authors: [chaitanya.joshi, peng.xu, xavier.bresson]
+authors: [chaitanya-joshi, peng-xu, xavier-bresson]
 
 tags: [Deep Learning, Computer Vision, Graph Neural Networks, Applications, Sketches]
 

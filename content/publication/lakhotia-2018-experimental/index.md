@@ -2,7 +2,7 @@
 title: "An Experimental Comparison of Text Classification Techniques"
 authors:
 - "Suyash Lakhotia"
-- xavier.bresson
+- xavier-bresson
 date: 2018-01-01
 doi: ""
 

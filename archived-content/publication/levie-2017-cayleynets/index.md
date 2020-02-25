@@ -1,6 +1,6 @@
 ---
 title: "Cayleynets: Graph Convolutional Neural Networks with Complex Rational Spectral Filters"
-authors: ["Ron Levie", "Federico Monti", xavier.bresson, "Michael Bronstein"]
+authors: ["Ron Levie", "Federico Monti", xavier-bresson, "Michael Bronstein"]
 date: 2017-01-01
 doi: ""
 

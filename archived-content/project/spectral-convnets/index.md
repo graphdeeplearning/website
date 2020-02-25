@@ -5,7 +5,7 @@ title: "Spectral Graph ConvNets"
 
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-authors: [xavier.bresson, "Ron Levie", "Pierre Vandergheynst", "Michaël Defferrard", "Youngjoo Seo", "Michael Bronstein", "Federico Monti"]
+authors: [xavier-bresson, "Ron Levie", "Pierre Vandergheynst", "Michaël Defferrard", "Youngjoo Seo", "Michael Bronstein", "Federico Monti"]
 
 tags: [Deep Learning, Graph Neural Networks, Models, Spectral Graph ConvNets]
 

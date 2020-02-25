@@ -1,6 +1,6 @@
 ---
 title: "Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering"
-authors: ["Michaël Defferrard", xavier.bresson, "Pierre Vandergheynst"]
+authors: ["Michaël Defferrard", xavier-bresson, "Pierre Vandergheynst"]
 date: 2016-01-01
 doi: ""
 

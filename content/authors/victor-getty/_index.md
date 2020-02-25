@@ -4,7 +4,7 @@ name: Victor Getty
 
 # Username (this should match the folder name)
 authors:
-- victor.getty
+- victor-getty
 
 # Is this the primary user of the site?
 superuser: false
@@ -36,7 +36,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:victor.getty@ntu.edu.sg' 
+  link: 'mailto:victor-getty@ntu.edu.sg' 
 - icon: github
   icon_pack: fab
   link: https://github.com/ivicts
