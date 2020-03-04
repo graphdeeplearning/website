@@ -31,8 +31,8 @@ tags:
 featured: false
 
 links:
-# - name: Blog
-#   url: 
+ - name: Blog
+   url: /post/transformers-are-gnns
 
 url_pdf: https://arxiv.org/pdf/1912.11258.pdf
 url_code: https://github.com/PengBoXiangShang/multigraph_transformer
