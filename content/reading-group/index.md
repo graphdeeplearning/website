@@ -25,10 +25,15 @@ Its also an opportunity for lab members to keep each other up-to-date and get ea
 
 We may have snacks/coffee! ;)
 
+
+{{% alert note %}}
+### Details
+
 **When**: Weekly/bi-weekly, [join the mailing list](mailto:chaitanya-joshi@ntu.edu.sg?subject=[GDL%20Reading%20Group]) \
 **Where**: MICL Lab Meeting Room, Block N4, N4-B1C-17, SCSE, NTU \
 **Duration**: Usually 30-45 minutes \
 **Contact**: [Chaitanya Joshi](/authors/chaitanya-joshi/)
+{{% /alert %}}
 
 ---
 

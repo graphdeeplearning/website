@@ -42,7 +42,7 @@ hero_media = ""
   
 [cta_alt]
   url = "#publications"
-  label = "Latest Papers"
+  label = "Latest Publications"
 
 # Note. An optional note to show underneath the links.
 #[cta_note]

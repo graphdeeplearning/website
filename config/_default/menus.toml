@@ -36,7 +36,7 @@
 [[main]]
   name = "Reading Group"
   url = "reading-group/"
-  weight = 120
+  weight = 90
 
 [[main]]
   name = "Contact"
