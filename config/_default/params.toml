@@ -81,7 +81,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "xbresson@ntu.edu.sg"
+email = ""
 phone = ""
 
 # Address
@@ -97,7 +97,7 @@ coordinates = {latitude = "1.34614", longitude = "103.68260"}
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.
-office_hours = ["Monday-Friday 08:30 to 17:30, Email for appointments"]
+office_hours = ["Monday-Friday 08:30 to 17:30"]
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 # appointment_url = ""
@@ -105,6 +105,7 @@ office_hours = ["Monday-Friday 08:30 to 17:30, Email for appointments"]
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
+  {icon = "envelope", icon_pack = "fas", name = "Email individually for appointments", link = "#people"},
   # {icon = "twitter", icon_pack = "fab", name = "Follow us on Twitter", link = "https://twitter.com/xbresson"},
   {icon = "github", icon_pack = "fab", name = "Follow us on GitHub", link = "https://github.com/graphdeeplearning"},
 ]
