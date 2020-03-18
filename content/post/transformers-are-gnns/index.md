@@ -293,6 +293,6 @@ Finally, we wrote [a recent paper]({{<ref "/publication/xu-2019-multi/index.md">
 #### Updates
 
 The post is also available on [Medium](https://medium.com/@chaitjo/transformers-are-graph-neural-networks-bca9f75412aa?source=friends_link&sk=c54de873b2cec3db70166a6cf0b41d3e), and has been translated to [Chinese](https://mp.weixin.qq.com/s/DABEcNf1hHahlZFMttiT2g) and [Russian](https://habr.com/ru/post/491576/).
-Do join the discussion on [Twitter](https://twitter.com/chaitjo/status/1233220586358181888?s=20) or [Reddit](https://www.reddit.com/r/MachineLearning/comments/fb86mo/d_transformers_are_graph_neural_networks_blog/)!
+Do join the discussion on [Twitter](https://twitter.com/chaitjo/status/1233220586358181888?s=20), [Reddit](https://www.reddit.com/r/MachineLearning/comments/fb86mo/d_transformers_are_graph_neural_networks_blog/) or [HackerNews](https://news.ycombinator.com/item?id=22518263)!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Transformers are a special case of Graph Neural Networks. This may be obvious to some, but the following blog post does a good job at explaining these important concepts. <a href="https://t.co/H8LT2F7LqC">https://t.co/H8LT2F7LqC</a></p>&mdash; Oriol Vinyals (@OriolVinyalsML) <a href="https://twitter.com/OriolVinyalsML/status/1233783593626951681?ref_src=twsrc%5Etfw">February 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
