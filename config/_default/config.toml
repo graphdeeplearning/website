@@ -13,7 +13,7 @@ baseurl = "https://graphdeeplearning.github.io/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = "Xavier Bresson &copy; {year}"
+copyright = "Xavier Bresson &copy; {year} · Made with &hearts; by [Chaitanya Joshi](https://chaitjo.github.io/)"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
