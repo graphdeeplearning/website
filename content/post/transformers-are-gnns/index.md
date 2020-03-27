@@ -36,6 +36,12 @@ image:
 projects:
 - spatial-convnets
 - sketches
+
+url_slides: /files/transformers-are-gnns-slides.pdf
+
+links:
+ - name: Medium
+   url: https://medium.com/@chaitjo/transformers-are-graph-neural-networks-bca9f75412aa?source=friends_link&sk=c54de873b2cec3db70166a6cf0b41d3e
 ---
 
 Engineer friends often ask me: Graph Deep Learning sounds great, but are there any big commercial success stories? Is it being deployed in practical applications?
