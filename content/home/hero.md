@@ -35,14 +35,15 @@ hero_media = ""
 #   Remove a link/note by deleting a cta/note block.
 
 [cta]
-  url = "/reading-group"
-  label = "Reading Group"
+  url = "/publication"
+  label = "Publications"
   icon_pack = "fa"
   icon = "book"
   
-[cta_alt]
-  url = "#publications"
-  label = "Latest Publications"
+#[cta_alt]
+#  url = "#publications"
+#  label = "Latest Publications"
+
 
 # Note. An optional note to show underneath the links.
 #[cta_note]

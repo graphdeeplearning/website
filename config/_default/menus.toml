@@ -33,10 +33,10 @@
   url = "post/"
   weight = 80
 
-[[main]]
-  name = "Reading Group"
-  url = "reading-group/"
-  weight = 90
+#[[main]]
+#  name = "Reading Group"
+#  url = "reading-group/"
+#  weight = 90
 
 [[main]]
   name = "Contact"
