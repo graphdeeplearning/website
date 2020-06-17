@@ -16,7 +16,7 @@ publication_types: ["3"]
 # Publication name
 publication: "*arXiv preprint arXiv:2003.00982*"
 
-abstract: "Graph neural networks (GNNs) have become the standard toolkit for analyzing and learning from data on graphs. They have been successfully applied to a myriad of domains including chemistry, physics, social sciences, knowledge graphs, recommendation, and neuroscience. As the field grows, it becomes critical to identify the architectures and key mechanisms which generalize across graphs sizes, enabling us to tackle larger, more complex datasets and domains. Unfortunately, it has been increasingly difficult to gauge the effectiveness of new GNNs and compare models in the absence of a standardized benchmark with consistent experimental settings and large datasets. In this paper, we propose a reproducible GNN benchmarking framework, with the facility for researchers to add new datasets and models conveniently. We apply this benchmarking framework to novel medium-scale graph datasets from mathematical modeling, computer vision, chemistry and combinatorial problems to establish key operations when designing effective GNNs. Precisely, graph convolutions, anisotropic diffusion, residual connections and normalization layers are universal building blocks for developing robust and scalable GNNs."
+abstract: "Graph neural networks (GNNs) have become the standard toolkit for analyzing and learning from data on graphs. As the field grows, it becomes critical to identify key architectures and validate new ideas that generalize to larger, more complex datasets. Unfortunately, it has been increasingly difficult to gauge the effectiveness of new models in the absence of a standardized benchmark with consistent experimental settings. In this paper, we introduce a reproducible GNN benchmarking framework, with the facility for researchers to add new models conveniently for arbitrary datasets. We demonstrate the usefulness of our framework by presenting a principled investigation into the recent Weisfeiler-Lehman GNNs (WL-GNNs) compared to message passing-based graph convolutional networks (GCNs) for a variety of graph tasks, i.e. graph regression/classification and node/link prediction, with medium-scale datasets."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -34,8 +34,8 @@ tags:
 featured: false
 
 links:
-#- name: Blog
-#  url: 
+- name: Blog
+  url: /post/benchmarking-gnns
 
 url_pdf: https://arxiv.org/pdf/2003.00982.pdf
 url_code: https://github.com/graphdeeplearning/benchmarking-gnns
