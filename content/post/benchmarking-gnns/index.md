@@ -49,7 +49,7 @@ _This blog is based on the paper [Benchmarking Graph Neural Networks](https://ar
 
 However, it has been increasingly difficult to gauge the effectiveness of new models and validate new ideas that generalize universally to larger and complex datasets **in the absence of** a standard and widely-adopted **benchmark**. 
 
-**To address** this paramount concern existing in graph learning research, we develop an open-source, easy-to-build and reproducible [benchmarking framework](https://github.com/graphdeeplearning/benchmarking-gnns) with a rigorous experimental protocol that is representative of the categorical advances in GNNs.   
+**To address** this paramount concern existing in graph learning research, we develop an open-source, easy-to-use and reproducible [benchmarking framework](https://github.com/graphdeeplearning/benchmarking-gnns) with a rigorous experimental protocol that is representative of the categorical advances in GNNs.   
 
 {{% alert note %}}
 This post outlines the [issues](https://arxiv.org/abs/1912.09893) [in](https://arxiv.org/abs/1905.09550) [the](https://arxiv.org/abs/1905.04682) [GNN](https://arxiv.org/abs/1905.04579) literature suggesting the need of a benchmark, the framework proposed in the [paper](https://arxiv.org/abs/2003.00982), the broad classes of widely used and powerful GNNs benchmarked and the insights learnt from the extensive experiments.
@@ -70,7 +70,7 @@ Benchmarking has been proved to be beneficial for **driving progress**, identify
 ### Need of a benchmarking framework for GNNs
 
 #### a. Datasets:
-Many of the widely cited papers in the GNN literature contain experiments that are evaluated on **small graph datasets** which have only hundreds (or, few thousand graphs). 
+Many of the widely cited papers in the GNN literature contain experiments that are evaluated on **small graph datasets** which have only a few hundreds (or, thousand) of graphs. 
 
 {{< figure src="tu_datasets.png" title="Fig 2: Statistics of the widely used TU datasets. Source [Errica et al., 2020](https://openreview.net/forum?id=HygDF6NFPB)" lightbox="true" width="100%">}}
 
@@ -78,7 +78,7 @@ Many of the widely cited papers in the GNN literature contain experiments that a
 
 [^1]: By this, we do not mean the ideas are not useful and/or the work put by the authors is not meaningful. Every effort equally contributes to the advance of this field.
 
-Our experiments, too, show the standard deviation of performance on such datasets is large enough to actually make concrete conclusions on a research idea. Moreover, most GNNs perform statistically the same on these datasets. 
+Our experiments, too, show that the standard deviation of performance on such datasets is large, making it difficult to make substantial conclusions on a research idea. Moreover, most GNNs perform statistically the same on these datasets. 
 The **quality** of these datasets also leads one to question if you should use them while validating ideas on GNNs. On several of these datasets, [simpler models](https://openreview.net/forum?id=HygDF6NFPB), sometimes, [perform as good](https://openreview.net/forum?id=rJlUhhVYvS), or even beats GNNs. 
 
 Consequently, **it has become difficult** to differentiate [complex](https://arxiv.org/abs/1905.09550), [simple](https://arxiv.org/abs/1905.04579) and [graph-agnostic](https://openreview.net/forum?id=HygDF6NFPB) architectures for graph machine learning. 
@@ -86,7 +86,7 @@ Consequently, **it has become difficult** to differentiate [complex](https://arx
 
 
 #### b. Consistent experimental protocol:
-Several papers in the GNN literature do not have consensus on a unifying and robust experimental setting which leads to [discussing]((https://arxiv.org/abs/1811.05868)) the inconsistencies and [re-evaluating](https://openreview.net/forum?id=HygDF6NFPB)) several papers' experiments.
+Several papers in the GNN literature do not have consensus on a unifying and robust experimental setting which leads to [discussing](https://arxiv.org/abs/1811.05868) the inconsistencies and [re-evaluating](https://openreview.net/forum?id=HygDF6NFPB) several papers' experiments.
 
 For a couple of examples to highlight here, [Ying et al., 2018](https://papers.nips.cc/paper/7729-hierarchical-graph-representation-learning-with-differentiable-pooling) performed training on $10$-fold split data for a fixed number of epochs and reported the performance of the epoch which has the *"highest average validation accuracy across the splits at any epoch"* whereas [Lee et al., 2019](http://proceedings.mlr.press/v97/lee19c.html) used an *"early stopping criterion"*  by monitoring the epoch-wise validation loss and report *"average test accuracy at last epoch"* over $10$-fold split. 
 
@@ -102,16 +102,16 @@ The existence of such problems pushed us to develop a GNN benchmarking framework
 
 The lack of benchmarks have been a major issue in GNN literature as the **aforementioned requirements have not been strictly enforced**.
 
-We believe that a standard and unified benchmark framework should have --
+<!-- We believe that a standard and unified benchmark framework should have --
 
 1. an easy to use and reproducible coding framework
 2. rigorous and fair experimental setting
 3. appropriate datasets that can statistically separate model performance
-4. comprehensive in terms of the fundamental tasks (applications) that the research can be applied to. 
+4. comprehensive in terms of the fundamental tasks (applications) that the research can be applied to.  -->
 
-> Having said that, designing benchmarks is highly challenging as we must make robust decisions for the 4 key points noted above. 
+Designing benchmarks is highly challenging as we must make robust decisions for coding framework, experimental settings and appropriate datasets. The benchmark should also be comprehensive to cover most of the fundamental tasks which is indicative of the application area the research can be applied to. For instance, graph learning problems include predicting properties at the node-level, edge-level and graph-level. A benchmark should attempt to cover many, if not all, of these.
 
-Particularly for the point 3, it is **challenging to collect real and representative large-scale datasets**. The lack of theoretical tools that can define the quality of a dataset _or,_ validate its statistical representativeness for a given task makes it difficult to decide on datasets. Furthermore, there are arbitrary choices required on the features of nodes and edges for graphs and the scale of graph sizes as most of the popular graph learning frameworks do not cater _‘very efficiently’_ to large graphs. 
+Similarly, it is **challenging to collect real and representative large-scale datasets**. The lack of theoretical tools that can define the quality of a dataset or, validate its statistical representativeness for a given task makes it difficult to decide on datasets. Furthermore, there are arbitrary choices required on the features of nodes and edges for graphs and the scale of graph sizes as most of the popular graph learning frameworks do not cater _‘very efficiently’_ to large graphs. 
 
 > There has been a promising effort recently, [The Open Graph Benchmark (OGB)](https://ogb.stanford.edu), to collect meaningful medium-to-large scale dataset in order to steer graph learning research. The initiative is complementary to the goals of this project.
 
@@ -119,12 +119,13 @@ Particularly for the point 3, it is **challenging to collect real and representa
 ---
 
 ### Proposed benchmarking framework:
-We include each of the four characteristics listed out in the previous section to propose a benchmarking framework. 
+<!-- We include each of the four characteristics listed out in the previous section to propose a benchmarking framework.  -->
+We propose a benchmarking framework for graph neural networks with the following key characteristics:
 
 1. We develop a modular coding infrastructure which can be used to speed up the development of new ideas 
 2. Our framework adopts a rigorous and fair experimental protocol, 
 3. We propose appropriate medium-scale datasets that can be used a plug-ins for later research. [^2]  
-[^2]: As examples, you may refer to [these](https://github.com/lukecavabarrett/pna) [works](https://github.com/AITRICS/mol_reliable_gnn) that leverage our framework to conveniently work on their research idea. It indicates the effectiveness of having such a framework.
+[^2]: As examples, you may refer [to](https://arxiv.org/pdf/2006.07846.pdf) [these](https://github.com/lukecavabarrett/pna) [works](https://github.com/AITRICS/mol_reliable_gnn) that leverage our framework to conveniently work on their research idea. It indicates the effectiveness of having such a framework.
 4. Four fundamental tasks in graph machine learning are covered, i.e. graph classification, graph regression, node classification, and edge classification.
 
 
@@ -147,7 +148,7 @@ We include 8 datasets from diverse domains of chemistry, mathematical modeling, 
 
 {{< figure src="dataset_summary.png" title="Fig 4: Summary statistics of the datasets included in the proposed benchmark" lightbox="true" width="100%">}}
 
-The details on these datasets and their relevance to benchmarking graph neural networks are described in detail in the paper. We highly recommend to read the paper for more understanding. 
+The steps for datasets' preparation and their relevance to benchmarking graph neural networks are described in the paper. 
 
 > It is worth mentioning that we include [OGBL-COLLAB](https://ogb.stanford.edu/docs/linkprop/#ogbl-collab) from OGB which demonstrates the we can **flexibly incorporate** any of the current and future datasets from the OGB initiative.
 
