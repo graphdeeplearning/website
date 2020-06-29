@@ -206,7 +206,7 @@ We perform exhaustive experiments on all datasets using every GNN models include
 
 > MLP node update equation at layer $\ell$ is: 
 $$
-h^{\ell+1}_{i} =  \sigma \left( W^{\ell} \ h^{\ell}_{i} \right) 
+	h_{i}^{\ell+1} =  \sigma \left( W^{\ell} \ h_{i}^{\ell} \right)
 $$
 
 MLP evaluates to consistently low scores on each of the datasets which shows the necessity to consider graph structure for these tasks. This result is also indicative of how appropriate these datasets are for GNN research as they statistically separate model’s performance.
@@ -221,12 +221,12 @@ A GCN model whose node update equation treats every edge direction equally, is c
 
 >Isotropic layer update equation:
 $$
-h^{\ell+1}_{i} =  \sigma\Big(W_1^{\ell} \ h^{\ell}_{i} + \sum_{j\in\mathcal{N}_i} W_2^{\ell} \ h^{\ell}_{j} \Big)
+h_{i}^{\ell+1} =  \sigma \Big( W_1^{\ell} \ h_{i}^{\ell} + \sum_{j \in \mathcal{N}_i} W_2^{\ell} \ h_{j}^{\ell} \Big)
 $$
 
 >Anisotropic layer update equation:
 $$
-h^{\ell+1}_{i} =  \sigma\Big(W_1^{\ell} \ h^{\ell}_{i} + \sum_{j\in\mathcal{N}_i} <span style="color:red">\eta_{ij}</span> W_2 h^{\ell}_{j} \Big)
+h_{i}^{\ell+1} =  \sigma \Big( W_1^{\ell} \ h_{i}^{\ell} + \sum_{j \in \mathcal{N}_i} \eta_{ij} W_2 h_{j}^{\ell} \Big)
 $$
 
 
